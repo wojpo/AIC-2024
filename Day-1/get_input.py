@@ -6,4 +6,3 @@ def get_input(filename):
             l1.append(int(line.strip().split()[0]))
             l2.append(int(line.strip().split()[1]))
     return l1, l2
-
