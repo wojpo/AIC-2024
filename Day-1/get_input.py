@@ -7,6 +7,3 @@ def get_input(filename):
             l2.append(int(line.strip().split()[1]))
     return l1, l2
 
-
-
-print(get_input("input"))
