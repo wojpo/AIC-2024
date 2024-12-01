@@ -17,4 +17,5 @@ def count_similarities(l: list, hashmap: dict) -> int:
     return ans
 
 if __name__ == '__main__':
-    print(count_similarities(get_input("input")[0], count_same_numbers(get_input("input")[1])))
+    inp = get_input("input")
+    print(count_similarities(inp[0], count_same_numbers(inp[1])))
